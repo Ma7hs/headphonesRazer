@@ -24,7 +24,7 @@ main{
         "description product socialMedia";
     grid-template-columns: 380px 1fr 48px;
     padding-left: 100px;
-    padding-bottom: 100px;
+    font-family:'Montserrat', sans-serif;
 }
 
 footer{

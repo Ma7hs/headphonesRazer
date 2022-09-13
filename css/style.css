@@ -8,18 +8,23 @@ body{
         "footer"    ;
     grid-template-rows: 100px 1fr 100px;
     padding-right: 100px;
-    padding-left: 0%;
-     
 }
 
 header{
     grid-area: header;
-    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 main{
     grid-area: main;
-    background-color: yellow;
+    display: grid;
+    grid-template-areas: 
+        "description product socialMedia";
+    grid-template-columns: 380px 1fr 48px;
+    padding-left: 100px;
+    padding-bottom: 100px;
 }
 
 footer{

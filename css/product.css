@@ -14,6 +14,9 @@
     font-size: 2rem;
     display: grid;
     place-items: center;
+    color: #76045D;
+    ;
+
 }
 
 .product_image{

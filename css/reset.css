@@ -4,3 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+a{
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
